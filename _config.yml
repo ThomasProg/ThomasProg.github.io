@@ -16,7 +16,7 @@ lang: en
 prefer_datetime_locale:
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
+timezone:Europe/Paris
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
@@ -29,10 +29,10 @@ description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://thomasprog.github.io/'
+url: 'https://thomasprog.github.io'
 
 github:
-  username: Prog'z             # change to your github username
+  username: Progz             # change to your github username
 
 # twitter:
   # username: twitter_username            # change to your twitter username
@@ -83,7 +83,7 @@ theme_mode:  dark # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar:https://avatars.githubusercontent.com/u/39605375?s=400&u=dd2b9fdb74306d53fd05e07125a0b855d62ae891&v=4
 
 # boolean type, the global switch for ToC in posts.
 toc: true
