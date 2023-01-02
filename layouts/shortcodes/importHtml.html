@@ -1,0 +1,6 @@
+{{ $filename := .Get "file" }}
+{{ $dirname := .Page.File.Dir }}
+{{ $fullname := printf "%s" $filename | printf "%s%s" $dirname | printf "%s" }}
+{{ $file := $fullname | readFile }}
+
+{{ (print $file) | safeHTML }}
