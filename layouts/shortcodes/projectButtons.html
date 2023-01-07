@@ -5,29 +5,47 @@
 {{ $otherLink := .Get "otherLink" }}
 {{ $otherText := .Get "otherText" }}
 
+{{ $githublink := .Get "githublink" }}
+{{ $itchlink := .Get "itchlink" }}
+{{ $websitelink := .Get "websitelink" }}
+
 {{- if $name }}
-{{ $github := $name }}
-{{ $itch := $name }}
-{{ $website := $name }}
+{{ $github = $name }}
+{{ $itch = $name }}
+{{ $website = $name }}
 {{- end }}
 
+{{- if not $githublink }}
+{{- if $github }}
 {{ $githubUrl := "https://github.com/ThomasProg/" }}
-{{ $itchUrl := "https://progz.itch.io/" }}
-{{ $websiteUrl := "https://thomasprog.github.io/projects/" }}
+{{ $githublink = printf "%s" $github | printf "%s%s" $githubUrl | printf "%s" }}
+{{- end }}
+{{- end }}
 
-{{ $githublink := printf "%s" $github | printf "%s%s" $githubUrl | printf "%s" }}
-{{ $itchlink := printf "%s" $itch | printf "%s%s" $itchUrl | printf "%s" }}
-{{ $websitelink := printf "%s" $website | printf "%s%s" $websiteUrl | printf "%s" }}
+{{- if not $itchlink }}
+{{- if $itch }}
+{{ $itchUrl := "https://progz.itch.io/" }}
+{{ $itchlink = printf "%s" $itch | printf "%s%s" $itchUrl | printf "%s" }}
+{{- end }}
+{{- end }}
+
+{{- if not $websitelink }}
+{{- if $website }}
+{{ $websiteUrl := "https://thomasprog.github.io/projects/" }}
+{{ $websitelink = printf "%s" $website | printf "%s%s" $websiteUrl | printf "%s" }}
+{{- end }}
+{{- end }}
+
 
 <div style="display: inline-block;margin: 15px; border-width: 1px;color:#fffcf2;border-bottom-width: 1px;border-top-width: 1px;border-bottom-style: solid;border-top-style: solid;border-color: #ccc5b9">
     <div style="margin: 15px;">
-        {{- if $itch }}
+        {{- if $itchlink }}
         <a href="{{ $itchlink }}" class="button", style="line-height: 33px;min-width: 100px;">Play</a>
         {{- end }}
-        {{- if $github }}
-        <a href="{{ $githublink }}" class="button", style="line-height: 33px;min-width: 100px;">See code</a>
+        {{- if $githublink }}
+        <a href="{{ $githublink }}" class="button", style="line-height: 33px;min-width: 100px;">Code</a>
         {{- end }}
-        {{- if $website }}
+        {{- if $websitelink }}
         <a href="{{ $websitelink }}" class="button", style="line-height: 33px;min-width: 100px;">Article</a>
         {{- end }}
         {{- if $otherLink }}

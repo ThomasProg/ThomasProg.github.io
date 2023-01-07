@@ -30,9 +30,12 @@ p {
     text-decoration: none;
     padding: 0 10px;
     font-size: 14px;
-    text-shadow: 0 1px 0px #526eea;
+    text-shadow: 0 1px 0px #F0F2F4;
     /* background: var(--itchio_button_color, #FF2449); */
     color: var(--itchio_button_fg_color, white);
+    --MAIN-LINK-HOVER-color: #F0F2F4;
+    --MAIN-LINK-color: #F0F2F4;
+    --INTERNAL-MAIN-LINK-HOVER-color:#fcd2b0;
     /* text-shadow: 0 1px 0 var(--itchio_button_shadow_color, #c3223e); */
     cursor: pointer;
     border-radius: 3px;
@@ -84,4 +87,9 @@ body:not(.print) #body-inner.narrow {
     margin-left: auto;
     margin-top:15px;
     margin-bottom:15px;
+}
+
+body:not(.print) #body-inner.narrow p {
+    font-size: 1.1rem;
+    text-align: left;
 }
