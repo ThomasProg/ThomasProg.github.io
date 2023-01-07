@@ -43,6 +43,7 @@ url = "https://www.youtube.com/ProgZ/"
 weight = 12
 
 disqusShortname = "progz"
+DisqusShortname = "progz"
 
 [params]
   themeVariant = [ "light-theme", "dark-theme", "neon-theme"]
