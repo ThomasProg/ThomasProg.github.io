@@ -42,6 +42,8 @@ name = "<i class='fas fa-fw fa-play'></i> youtube"
 url = "https://www.youtube.com/ProgZ/"
 weight = 12
 
+disqusShortname = "progz"
+
 [params]
   themeVariant = [ "light-theme", "dark-theme", "neon-theme"]
     mathJaxInitialize = "{ \"chtml\": { \"displayAlign\": \"left\" } }"
