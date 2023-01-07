@@ -1,0 +1,47 @@
+
+{{ $name := .Get "name" }}
+{{ $description := .Inner }}
+
+
+<!-- <div style="display:flex; flex: 1;"> 
+    <div style="margin-left: 25px; display: flex;justify-content: center; align-items: center;border-color: #333333;width: 220px;">
+        <h2> 
+        {{ $name }}
+        </h2>
+    </div>
+    
+    <div class="game_summary", style="flex:1;display:flex;flex-direction: column;justify-content: center;">           
+        <div style="border-left-width: 1px;border-left-style: solid;border-color: #333333;padding: 0 12px;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        min-width: 0;">
+            <div style="color:  #fed6fc;">
+                {{ $description }}
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<div style="flex-direction: column;"> 
+<div style="margin-left: 15px; border-color: #ccc5b9;">
+    <h2 style="margin:0px;color:#eb5e28"> 
+    {{ $name }}
+    </h2>
+</div>
+
+<div class="game_summary", style="flex:1;display:flex;flex-direction: column;justify-content: top;">           
+    <div style="border-top-width: 1px;border-top-style: solid;border-color: #ccc5b9;padding: 0 12px;
+    flex: 1;
+    display: flex;
+    justify-content: top;
+    flex-direction: column;
+    min-width: 0;">
+        <div style="color:  #fffcf2;margin-top: 10px;margin-bottom: 10px;margin-left: 10px;">
+            {{ $description }}
+        </div>
+    </div>
+</div>
+
+</div>

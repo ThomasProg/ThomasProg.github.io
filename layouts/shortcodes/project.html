@@ -1,0 +1,58 @@
+{{ $name := .Get "name" }}
+{{ $github := .Get "github" }}
+{{ $itch := .Get "itch" }}
+{{ $website := .Get "website" }}
+
+{{- if $name }}
+{{ $github := $name }}
+{{ $itch := $name }}
+{{ $website := $name }}
+{{- end }}
+
+{{ $githubUrl := "https://github.com/ThomasProg/" }}
+{{ $itchUrl := "https://progz.itch.io/" }}
+{{ $websiteUrl := "https://thomasprog.github.io/projects/" }}
+
+{{ $githublink := printf "%s" $github | printf "%s%s" $githubUrl | printf "%s" }}
+{{ $itchlink := printf "%s" $itch | printf "%s%s" $itchUrl | printf "%s" }}
+{{ $websitelink := printf "%s" $website | printf "%s%s" $websiteUrl | printf "%s" }}
+
+<div style="font-size: 13px;" class="boxContent">
+
+    <div style="display:flex; flex: 1;"> 
+
+        <div style="margin-left:20px;margin-right:20px;display: flex;justify-content: center; align-items: center;">
+            <img srcset="https://img.itch.zone/aW1nLzgyMDU1MDIucG5n/360x286%23c/h8dv4B.png 2x" class="thumb" src="https://img.itch.zone/aW1nLzgyMDU1MDIucG5n/180x143%23c/FyIxfU.png">
+        </div>
+
+        <div class="game_summary", style="flex:1;display:flex;flex-direction: column;justify-content: center;">           
+            <div style="border-left-width: 1px;border-left-style: solid;border-color: #333333;padding: 0 12px;
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;">
+                <div style="color: #fffcf2;">
+                    <p style="    font-size: 2em;
+                    font-weight: bold;color:#eb5e28">
+                        Forest
+                    </p>
+                    by Prog'z
+                    </br>
+                    Enter the forest and discover its mysteries...
+                </div>
+                <div style="
+                flex: 0;
+                display: flex;
+                justify-content: center;
+                flex-direction:row;
+                min-width: 0;gap: 10px;margin-top: 8px;margin-bottom: 6px;">
+                    <a href="{{ $itchlink }}" class="button", style="line-height: 33px;min-width: 100px;">Play</a>
+                    <a href="{{ $githublink }}" class="button", style="line-height: 33px;min-width: 100px;">See code</a>
+                    <a href="{{ $websitelink }}" class="button", style="line-height: 33px;min-width: 100px;">See more</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>

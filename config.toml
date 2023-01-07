@@ -17,7 +17,7 @@ defaultContentLanguageInSubdir = true
 
 [Languages]
 [Languages.en]
-title = "Documentation for Hugo Learn Theme"
+title = "Prog'z"
 weight = 1
 languageName = "English"
 
@@ -27,9 +27,20 @@ weight = 2
 languageName = "Français"
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-tags'></i> Tags"
-url = "/tags"
-weight = 30
+name = "<i class='fab fa-fw fa-github'></i> GitHub"
+identifier = "ds"
+url = "https://github.com/ThomasProg/"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-fw fa-circle'></i> itch.io"
+url = "https://progz.itch.io/"
+weight = 11
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-fw fa-play'></i> youtube"
+url = "https://www.youtube.com/ProgZ/"
+weight = 12
 
 [params]
   themeVariant = [ "light-theme", "dark-theme", "neon-theme"]
@@ -43,3 +54,7 @@ disableLandingPageButton = true
     # was given BUT Mermaid and Math codefences will not work anymore! So this is a
     # mandatory setting for your site if you want to use Math codefences
     guessSyntax = false
+
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
