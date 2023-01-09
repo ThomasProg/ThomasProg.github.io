@@ -1,0 +1,14 @@
+@import "theme-neon.css";
+
+ul, ol {
+    margin-top: 0rem;
+    margin-bottom: 0rem; }
+
+p {
+    margin: 0rem 0;
+}
+
+#chapter h1 {
+    font-size: 5rem;
+    border-bottom: 4px solid #F0F2F4;
+}
