@@ -1,0 +1,85 @@
++++
+title = "Rasterizer"
+date = 2022-12-11T17:25:53+01:00
+weight = 1
+chapter = true
+pre = "<b>> </b>"
++++
+
+<h1 style="text-align: center;color:#F4A261">Rasterizer</h1>
+<h2 style="text-align: center;color:#fffcf2" title="The drawing pipeline from zero">The drawing pipeline from zero</h2>
+
+<!-- </br> -->
+
+<!-- <iframe style="width:70%; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/81q4XSZM1j4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+<!-- </br> -->
+
+{{< projectButtons github="Rasterizer-2019-2020" website="Rasterizer" >}} 
+
+<div style="display: grid; gap:20px; grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));margin-right: 15px;"> 
+
+<div>
+{{% projectDescription %}} 
+{{% projectDescriptionBox name="Description" %}}
+
+The goal of this project was to learn how graphic apis such as OpenGL worked under the hood.</br>
+The whole drawing pipeline has been remade on the GPU.</br>
+All pixels are drawn in a 2D buffer, that is sent to SDL for display to the screen only.
+
+{{% /projectDescriptionBox %}}
+
+{{% projectDescriptionBox name="Tools" %}}
+
+- C++
+- SDL (but only to render pixels from an array)
+
+{{% /projectDescriptionBox %}}
+ 
+{{% projectDescriptionBox name="Members" %}}
+
+Programmers:
+- Thomas Dallard
+- Tristan Francillonne
+
+{{% /projectDescriptionBox %}}
+{{% /projectDescription %}}
+
+</div>
+
+<div>
+
+{{% projectDescription %}} 
+{{% projectDescriptionBox name="My work" %}}
+
+Rendering:
+- Forward Rendering
+- Wireframe mode
+- Perspective & orthogonal projections
+- Vertex color interpolations
+- Z buffer
+- Phong
+- Blinn Phong
+- Customizable lights (ambient, diffuse, specular)
+- Texturing with bilinear filtering or nearest-neighbor interpolation
+- Back face culling
+- Alpha Blending (transparency)
+- Anti Aliasing (supersampling / multisampling)
+
+Other:
+- Custom OBJ loader
+- Cube & Sphere meshes generations
+
+</br>
+
+Other:
+- Community Management
+
+{{% /projectDescriptionBox %}}
+{{% /projectDescription %}}
+
+</div>
+
+</div>
+
+{{< comments >}}

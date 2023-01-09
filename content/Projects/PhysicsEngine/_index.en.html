@@ -1,37 +1,38 @@
 +++
-title = "Dragon's Tower"
+title = "2D Physics Engine"
 date = 2022-12-11T17:25:53+01:00
 weight = 1
 chapter = true
 pre = "<b>> </b>"
 +++
 
-<h1 style="text-align: center;color:#F4A261">Dragon's Tower</h1>
-<h2 style="text-align: center;color:#fffcf2" title="Defeat the dragon">Defeat the dragon</h2>
+<h1 style="text-align: center;color:#F4A261">2D Physics Engine</h1>
+<h2 style="text-align: center;color:#fffcf2" title="Real time Physics Engine">Real time Physics Engine</h2>
 
-</br>
+<!-- </br> -->
 
 <!-- <iframe style="width:70%; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/GrtPbnP4KDw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
-</br>
+<!-- </br> -->
 
-{{< projectButtons itch="dragons-tower" github="Dragon-s-Tower" website="dragonstower" >}} 
+{{< projectButtons website="PhysicsEngine" otherLink="https://thomasprog.github.io/Algo-A-to-Z/collisions/index.html" otherText="Tutorials" >}} 
 
 <div style="display: grid; gap:20px; grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));margin-right: 15px;"> 
 
 <div>
-    
 {{% projectDescription %}} 
 {{% projectDescriptionBox name="Description" %}}
 
-Dragon's Tower is a 3D platformer made entirely in Blueprints.
+The goal of this project was to learn how the different phases of a physics engine.</br>
+Tutorials are available on the website.</br>
 
 {{% /projectDescriptionBox %}}
 
 {{% projectDescriptionBox name="Tools" %}}
 
-- Unreal Engine 4
-- Blueprints</br>
+Programming:
+- C++
+- Git
 
 {{% /projectDescriptionBox %}}
  
@@ -44,15 +45,24 @@ Dragon's Tower is a 3D platformer made entirely in Blueprints.
 {{% projectDescription %}} 
 {{% projectDescriptionBox name="My work " %}}
 
-Programming:
-- Particles
-- Attack mechanics
-- Movement mechanics
-- simple AIs + Boss AI (Behavior Tree)
-- Saved score system
+Broad Phases:
+- Bounding Volumes (AABB / Circles)
+- Grid
+- Quad Tree
+- Sweep And Prune
 
-Other:
-- Code explainations
+</br>
+
+Narrow Phases:
+- Separating Axis Test
+- GJK + EPA
+
+</br>
+
+Reactions:
+- Constraints
+- Position / Rotation / Velocity reactions
+- Friction
 
 {{% /projectDescriptionBox %}}
 {{% /projectDescription %}}

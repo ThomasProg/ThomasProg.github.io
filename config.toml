@@ -46,7 +46,7 @@ disqusShortname = "progz"
 DisqusShortname = "progz"
 
 [params]
-  themeVariant = [ "light-theme", "dark-theme", "neon-theme"]
+  themeVariant = [ "dark-theme"]
     mathJaxInitialize = "{ \"chtml\": { \"displayAlign\": \"left\" } }"
 
 disableLandingPageButton = true
