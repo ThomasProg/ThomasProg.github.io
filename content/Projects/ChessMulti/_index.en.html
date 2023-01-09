@@ -1,13 +1,13 @@
 +++
-title = "AI Movement"
+title = "Chess Multi"
 date = 2023-01-05T17:25:53+01:00
 weight = 1
 chapter = true
 pre = "<b>> </b>"
 +++
 
-<h1 style="text-align: center;color:#F4A261">AI Movement</h1>
-<h2 style="text-align: center;color:#fffcf2">Move AIs in a cool way</h2>
+<h1 style="text-align: center;color:#F4A261">Chess Multi</h1>
+<h2 style="text-align: center;color:#fffcf2">TCP & UDP protocols</h2>
 
 <!-- </br> -->
 
@@ -15,7 +15,7 @@ pre = "<b>> </b>"
 
 <!-- </br> -->
 
-{{< projectButtons github="AI-Movement" website="AI-Movement" >}} 
+{{< projectButtons github="ChessMulti" website="ChessMulti" >}} 
 
 <div style="display: grid; gap:20px; grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));margin-right: 15px;"> 
 
@@ -23,14 +23,21 @@ pre = "<b>> </b>"
 {{% projectDescription %}} 
 {{% projectDescriptionBox name="Description" %}}
 
-The goal of this project was to implement AI movements from scratch, whether it is group mouvement or path finding.
+A multiplayer chess game.</br>
+A player can make a server, and the other join by ip.</br>
+There can be spectators.</br>
+Players can send messages.</br>
+The board is updated to all clients.</br>
+</br>
+The goal of this project was to learn how TCP and UDP communications work.
 
 {{% /projectDescriptionBox %}}
 
 {{% projectDescriptionBox name="Tools" %}}
 
-C#</br>
-Unity 3D (for rendering)
+Programming:
+- C# 
+- Unity 3D
 
 {{% /projectDescriptionBox %}}
  
@@ -41,20 +48,12 @@ Unity 3D (for rendering)
 <div>
 
 {{% projectDescription %}} 
-{{% projectDescriptionBox name="My work " %}}
+{{% projectDescriptionBox name="My work" %}}
 
-Path Finding:
-- Navmesh / Navigation graph
-- A* algorithm implementation
-- Dijkstra algorithm implementation
-
-</br>
-
-Steering behavior for groups:
-- Alignement
-- Cohesion
-- Separation
-- Steering Behaviour
+Programming:
+- Server / Client connection
+- Replications (Chess Moves, Score, Game Over)
+- Data serialization for network
 
 {{% /projectDescriptionBox %}}
 {{% /projectDescription %}}

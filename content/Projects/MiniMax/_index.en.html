@@ -1,13 +1,13 @@
 +++
-title = "AI Movement"
+title = "MiniMax"
 date = 2023-01-05T17:25:53+01:00
 weight = 1
 chapter = true
 pre = "<b>> </b>"
 +++
 
-<h1 style="text-align: center;color:#F4A261">AI Movement</h1>
-<h2 style="text-align: center;color:#fffcf2">Move AIs in a cool way</h2>
+<h1 style="text-align: center;color:#F4A261">MiniMax</h1>
+<h2 style="text-align: center;color:#fffcf2">An AI for board games</h2>
 
 <!-- </br> -->
 
@@ -15,7 +15,7 @@ pre = "<b>> </b>"
 
 <!-- </br> -->
 
-{{< projectButtons github="AI-Movement" website="AI-Movement" >}} 
+{{< projectButtons github="MiniMax" website="MiniMax" >}} 
 
 <div style="display: grid; gap:20px; grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));margin-right: 15px;"> 
 
@@ -23,7 +23,13 @@ pre = "<b>> </b>"
 {{% projectDescription %}} 
 {{% projectDescriptionBox name="Description" %}}
 
-The goal of this project was to implement AI movements from scratch, whether it is group mouvement or path finding.
+Implementation of the MiniMax algorithm, tested on a TicTacToe.</br>
+The goal of the MiniMax algorithm is to play the best move given a current board.</br>
+For that, the algorithm will compute future moves, until a given depth is reached.</br>
+Pruning can be used to optimize performance and not compute every possible move.</br>
+</br>
+This is a famous algorithm in board games, but can also be used elsewhere.</br>
+Stockfish, one of the best chess AI, is using MiniMax.
 
 {{% /projectDescriptionBox %}}
 
@@ -38,28 +44,18 @@ Unity 3D (for rendering)
 
 </div>
 
-<div>
+<!-- <div>
 
 {{% projectDescription %}} 
 {{% projectDescriptionBox name="My work " %}}
 
-Path Finding:
-- Navmesh / Navigation graph
-- A* algorithm implementation
-- Dijkstra algorithm implementation
-
-</br>
-
-Steering behavior for groups:
-- Alignement
-- Cohesion
-- Separation
-- Steering Behaviour
+Programming:
+- 
 
 {{% /projectDescriptionBox %}}
 {{% /projectDescription %}}
 
-</div>
+</div> -->
 
 </div>
 
