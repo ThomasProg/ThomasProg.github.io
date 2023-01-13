@@ -1,0 +1,4 @@
+{{ $projectName := index .Site.Data.Projects (.Get 0) }}
+
+{{- partial "smallButtons.html" (dict "project" $projectName) . }}
+

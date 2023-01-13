@@ -1,0 +1,11 @@
+<div style="display: grid;gap:30px;width: 100%;grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));"> 
+
+    <!-- {{ $.Page.Site.BaseURL }} -->
+
+{{ range $.Site.Data.Projects }}
+    <div style="width:100%">
+   {{ partial "showcaseProject.html" (dict "project" .) }}
+    </div>
+{{ end }}
+
+</div>

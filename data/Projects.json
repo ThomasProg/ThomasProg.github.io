@@ -1,0 +1,554 @@
+{
+    "3D-Animations" :
+    {
+        "name": "3D Animations",
+
+        "githubLink" : "https://github.com/ThomasProg/AnimationProject",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/3D-Animations",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "Making 3D bone animations"
+    },
+
+    "AI-Movement" :
+    {
+        "name": "AI Movement",
+
+        "githubLink" : "https://github.com/ThomasProg/AI-Movement",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/AI-Movement",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "Moving groups of AIs"
+    },
+
+    "AphroditesRenderingEngine" :
+    {
+        "name": "Aphrodite's Rendering Engine",
+
+        "githubLink" : "https://github.com/ThomasProg/AphroditesRenderingEngine",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/AphroditesRenderingEngine",
+
+        "otherLink" : "https://www.youtube.com/playlist?list=PLVsMLLvBrwU9qNmyVddJq_wofQzLP5SIg",
+        "otherText" : "Playlist",
+
+        "description": "Tutorials to make a Rendering Engine with Vulkan"
+    },
+
+    "BimBall" :
+    {
+        "name": "Bim!Ball",
+
+        "githubLink" : "https://github.com/ThomasProg/BimBall",
+        "itchLink" : "https://falkynn.itch.io/bimball",
+        "websiteLink" : "https://thomasprog.github.io/projects/BimBall",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "A brawler game"
+    },
+
+    "ChessMulti" :
+    {
+        "name": "Chess Multi",
+
+        "githubLink" : "https://github.com/ThomasProg/ChessMulti",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/ChessMulti",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "A chess game playable in lan"
+    },
+
+    "Distorsion" :
+    {
+        "name": "Distorsion",
+
+        "githubLink" : "https://github.com/ThomasProg/Distorsion2C",
+        "itchLink" : "https://progz.itch.io/Distorsion",
+        "websiteLink" : "https://thomasprog.github.io/projects/Distorsion",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "A puzzle game where you control time"
+    },
+
+    "DragonChess" :
+    {
+        "name": "Dragon Chess",
+
+        "githubLink" : "https://github.com/ThomasProg/WolfChess",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/DragonChess",
+
+        "otherLink" : "https://www.youtube.com/playlist?list=PLVsMLLvBrwU8pOB8wJRNgoCA6rvmspoGD",
+        "otherText" : "Playlist",
+
+        "description": "A live tutorial to make a chess game with Blueprints on Unreal Engine 4"
+    },
+
+    "DragonTower" :
+    {
+        "name": "Dragon Tower",
+
+        "githubLink" : "https://github.com/ThomasProg/Dragon-s-Tower",
+        "itchLink" : "https://progz.itch.io/dragons-tower",
+        "websiteLink" : "https://thomasprog.github.io/projects/DragonTower",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "A simple platformer game made on Unreal Engine 4"
+    },
+
+    "Forest" :
+    {
+        "name": "Forest",
+
+        "githubLink" : "https://github.com/ThomasProg/Forest",
+        "itchLink" : "https://progz.itch.io/Forest",
+        "websiteLink" : "https://thomasprog.github.io/projects/Forest",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "An introduction to Tech Art"
+    },
+
+    "France-IOI" :
+    {
+        "name": "France IOI",
+
+        "githubLink" : "https://github.com/ThomasProg/France-IOI",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/France-IOI",
+
+        "otherLink" : "https://www.youtube.com/playlist?list=PLVsMLLvBrwU9oDWBUhv_E0xKicgZqlrZm",
+        "otherText" : "Playlist",
+
+        "description": "Algorithm resolutions & explainations"
+    },
+
+    "Ghosty" :
+    {
+        "name": "Ghosty",
+
+        "githubLink" : "https://github.com/ThomasProg/GhostySimulator",
+        "itchLink" : "https://progz.itch.io/Ghosty",
+        "websiteLink" : "https://thomasprog.github.io/projects/Ghosty",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "A tamagotchi-like game, with an AI you have to take care of"
+    },
+
+    "Gladiator" :
+    {
+        "name": "Gladiator",
+
+        "githubLink" : "https://github.com/ThomasProg/GladiatorAI",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/Gladiator",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "Fight in an arena vs a coordinated AI group"
+    },
+
+    "GPEngine" :
+    {
+        "name": "GP Engine",
+
+        "githubLink" : "https://github.com/GP-Engine-team/GP_Engine",
+        "itchLink" : "https://progz.itch.io/green-portal",
+        "websiteLink" : "https://thomasprog.github.io/projects/GP-Engine",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "A custom Engine made from C++, with a game"
+    },
+
+    "JanusTaskSystem" :
+    {
+        "name": "Janus Task System",
+
+        "githubLink" : "https://github.com/ThomasProg/JanusTaskSystem",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/JanusTaskSystem",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "std::function remade"
+    },
+
+    "LabyrinthZ" :
+    {
+        "name": "Labyrinth Z",
+
+        "githubLink" : "",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/LabyrinthZ",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "A randomly generated labyrinth in Python"
+    },
+
+    "Magnum" :
+    {
+        "name": "Magnum",
+
+        "githubLink" : "https://github.com/ThomasProg/Magnum-2019-2020",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/Magnum",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "Using the Magnum engine to make a game"
+    },
+
+    "MallocAndFree" :
+    {
+        "name": "Malloc And Free",
+
+        "githubLink" : "https://github.com/ThomasProg/MallocAndFree-2019-2020-GP",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/MallocAndFree",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "Custom implementation of Malloc and Free"
+    },
+
+    "MemorySoup" :
+    {
+        "name": "Memory Soup",
+
+        "githubLink" : "https://github.com/ThomasProg/MemorySoup",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/MemorySoup",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "Library making big memory improvements"
+    },
+
+
+    "MinecraftPlugins" :
+    {
+        "name": "Minecraft Plugins",
+
+        "githubLink" : "https://github.com/Prog-Z",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/MinecraftPlugins",
+
+        "otherLink" : "https://www.youtube.com/playlist?list=PLVsMLLvBrwU_8mF2qaTaOdilWX8qcnD5_",
+        "otherText" : "Playlist",
+
+        "description": "Java plugins for Minecraft"
+    },
+
+
+    "Minestorm" :
+    {
+        "name": "Minestorm",
+
+        "githubLink" : "https://github.com/ThomasProg/Minestorm-2019-2020",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/Minestorm",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "A game with custom 2D collisions"
+    },
+
+
+    "MiniMax" :
+    {
+        "name": "MiniMax",
+
+        "githubLink" : "https://github.com/ThomasProg/MiniMax",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/MiniMax",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "An AI for board games"
+    },
+
+    "NeuralNetwork" :
+    {
+        "name": "NeuralNetwork",
+
+        "githubLink" : "https://github.com/ThomasProg/NeuralNetwork",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/NeuralNetwork",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "Development of a neural network in C#"
+    },
+
+    "NintendoSwitchPort" :
+    {
+        "name": "Nintendo Switch Port",
+
+        "githubLink" : "https://github.com/ThomasProg/ProtoConsole",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/Nintendo-Switch-Port",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "Programming on a Nintendo Switch"
+    },
+
+    "PadoruGame" :
+    {
+        "name": "Padoru Game",
+
+        "githubLink" : "https://github.com/ThomasProg/PadoruGame",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/PadoruGame",
+
+        "otherLink" : "https://www.youtube.com/playlist?list=PLVsMLLvBrwU-BBdkCnt3Xab3jgKtpjUFr",
+        "otherText" : "Playlist",
+
+        "description": "C++ SDL Tutorials"
+    },
+
+    "PhysicsEngine" :
+    {
+        "name": "Physics Engine",
+
+        "githubLink" : "",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/PhysicsEngine",
+
+        "otherLink" : "https://thomasprog.github.io/Algo-A-to-Z/collisions/index.html",
+        "otherText" : "Tutorials",
+
+        "description": "2D Collisions for convex objects"
+    },
+
+    "Projection" :
+    {
+        "name": "Projection",
+
+        "githubLink" : "https://github.com/ThomasProg/Projection-Action2.5D-2019-2020",
+        "itchLink" : "https://rakan.itch.io/projection",
+        "websiteLink" : "https://thomasprog.github.io/projects/Projection",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "2.5D Platformer Game"
+    },
+
+    "Rasterizer" :
+    {
+        "name": "Rasterizer",
+
+        "githubLink" : "https://github.com/ThomasProg/Rasterizer-2019-2020",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/Rasterizer",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "Rendering pixels to the screen to make it look 3D"
+    },
+
+    "RTS-AI" :
+    {
+        "name": "RTS AI",
+
+        "githubLink" : "",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/RTS-AI",
+
+        "otherLink" : "https://jeux.gdria.fr/reunions.html",
+        "otherText" : "conference",
+
+        "description": "Development of the AI of a RTS"
+    },
+
+    "Shoot-Cells-Up" :
+    {
+        "name": "Shoot Cells Up",
+
+        "githubLink" : "https://github.com/ThomasProg/GranullesDeStress",
+        "itchLink" : "https://progz.itch.io/Shoot-Cells-Up",
+        "websiteLink" : "https://thomasprog.github.io/projects/ShootCellsUp",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "Game made in a 2 days Game Jam"
+    },
+
+    "SnakeTuto" :
+    {
+        "name": "Snake Tutorials",
+
+        "githubLink" : "https://github.com/ThomasProg/SuperSnakeTournament",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/SnakeTuto",
+
+        "otherLink" : "https://www.youtube.com/playlist?list=PLVsMLLvBrwU_NymJRh7gFHTbtGL4NhjC2",
+        "otherText" : "Playlist",
+
+        "description": "SDL Tutorials to make a Snake"
+    },
+
+    "SortAlgorithms" :
+    {
+        "name": "Sort Algorithms",
+
+        "githubLink" : "https://github.com/ThomasProg/Algorithms-2019-2020",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/SortAlgorithms",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "Implementations of sort algorithms"
+    },
+
+
+    "SpyCatcher" :
+    {
+        "name": "Spy Catcher",
+
+        "githubLink" : "https://github.com/ThomasProg/SpyCatcher",
+        "itchLink" : "https://progz.itch.io/Spy-Catcher",
+        "websiteLink" : "https://thomasprog.github.io/projects/SpyCatcher",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "Game made in a 1 week game jam"
+    },
+
+    "TinyWolf" :
+    {
+        "name": "Tiny Wolf",
+
+        "githubLink" : "https://github.com/ThomasProg/TinyWings",
+        "itchLink" : "https://progz.itch.io/Tiny-Wolf",
+        "websiteLink" : "https://thomasprog.github.io/projects/TinyWolf",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "Tiny Wings-like game"
+    },
+
+    "TowerDefenseTutorials" :
+    {
+        "name": "Tower Defense Tutorials",
+
+        "githubLink" : "https://github.com/ThomasProg/LiveTowerDefense",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/TowerDefenseTutorials",
+
+        "otherLink" : "https://www.youtube.com/playlist?list=PLVsMLLvBrwU8DdE5-7kokdZx1OmDm35BB",
+        "otherText" : "Playlist",
+
+        "description": "UE4 Blueprints Tutorials during a live"
+    },
+
+
+    "TPS Multi" :
+    {
+        "name": "Tower Defense Tutorials",
+
+        "githubLink" : "https://github.com/ThomasProg/TPSMulti",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/TPS-Multi",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "TPS in multiplayer"
+    },
+
+    "TwinStickShooterMulti" :
+    {
+        "name": "Twin Stick Shooter Multi",
+
+        "githubLink" : "https://github.com/ThomasProg/TwinStickShooter-Multi",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/TwinStickShooterMulti",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "A TwinStickShooter-like game in multiplayer"
+    },
+
+    "VectorAndList" :
+    {
+        "name": "Vector And List",
+
+        "githubLink" : "https://github.com/ThomasProg/VectorList-2019-2020",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/VectorAndList",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "Custom implementation of std::list and std::vector"
+    },
+
+
+    "Voxelz" :
+    {
+        "name": "Voxel'z",
+
+        "githubLink" : "https://github.com/ThomasProg/VoxelZ",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/Voxelz",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "Procedural Generation on Unreal Engine 4"
+    },
+
+    "WatermelonMatrix" :
+    {
+        "name": "Watermelon Matrix",
+
+        "githubLink" : "https://github.com/ThomasProg/Watermelon-Matrix",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/WatermelonMatrix",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "Exploring C++ template technics"
+    }
+}
+

@@ -1,0 +1,18 @@
+{{ $project := .project }}
+
+<div style="display: inline-block;margin: 15px; border-width: 1px;color:#fffcf2;border-bottom-width: 1px;border-top-width: 1px;border-bottom-style: solid;border-top-style: solid;border-color: #ccc5b9">
+    <div style="margin: 15px;">
+        {{- if $project.itchLink }}
+        <a href="{{ $project.itchLink }}" class="button", style="line-height: 33px;min-width: 100px;">Play</a>
+        {{- end }}
+        {{- if $project.githubLink }}
+        <a href="{{ $project.githubLink }}" class="button", style="line-height: 33px;min-width: 100px;">Code</a>
+        {{- end }}
+        {{- if $project.websiteLink }}
+        <a href="{{ $project.websiteLink }}" class="button", style="line-height: 33px;min-width: 100px;">Article</a>
+        {{- end }}
+        {{- if $project.otherLink }}
+        <a href="{{ $project.otherLink }}" class="button", style="line-height: 33px;min-width: 100px;">{{ $project.otherText }}</a>
+        {{- end }}
+    </div>
+</div>

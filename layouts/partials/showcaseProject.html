@@ -1,0 +1,50 @@
+{{ $project := .project }}
+
+<div style="font-size: 13px;" class="boxContent">
+
+    <div style="display:flex; flex: 1;"> 
+
+        <!-- <div style="margin-left:20px;margin-right:20px;display: flex;justify-content: center; align-items: center;">           
+            <img style="width:150px;height:150px"
+            src="{{.Site.BaseURL}}/Projects/3D-Animations/big.png"
+            onerror="this.onerror=null; this.src='https://img.itch.zone/aW1nLzgyMDU1MDIucG5n/360x286%23c/h8dv4B.png'"
+            />
+        </div> -->
+
+        <div class="game_summary", style="flex:1;display:flex;flex-direction: column;justify-content: center;">           
+            <div style="border-left-width: 1px;border-left-style: solid;border-color: #333333;padding: 0 12px;
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;">
+                <div style="color: #fffcf2;">
+                    <p style="    font-size: 2em;
+                    font-weight: bold;color:#eb5e28">
+                    {{$project.name}}
+                    </p>
+                    <!-- by Prog'z
+                    </br> -->
+                    {{$project.description}}
+                </div>
+                <div style="
+                flex: 0;
+                display: flex;
+                justify-content: center;
+                flex-direction:row;
+                min-width: 0;gap: 10px;margin-top: 8px;margin-bottom: 6px;">
+                    {{- if $project.itchLink }}
+                    <a href="{{ $project.itchLink }}" class="button", style="line-height: 33px;min-width: 100px;">Play</a>
+                    {{- end }}
+                    {{- if $project.githubLink }}
+                    <a href="{{ $project.githubLink }}" class="button", style="line-height: 33px;min-width: 100px;">See code</a>
+                    {{- end }}
+                    {{- if $project.websiteLink }}
+                    <a href="{{ $project.websiteLink }}" class="button", style="line-height: 33px;min-width: 100px;">See more</a>
+                    {{- end }}
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>

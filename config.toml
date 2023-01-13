@@ -42,6 +42,11 @@ name = "<i class='fas fa-fw fa-play'></i> youtube"
 url = "https://www.youtube.com/ProgZ/"
 weight = 12
 
+[[menu.shortcuts]]
+name = "<i class='fas fa-fw fa-mail-bulk'></i> Mail"
+url = "https://mailto:thomas.dallard42@gmail.com"
+weight = 13
+
 disqusShortname = "progz"
 DisqusShortname = "progz"
 
