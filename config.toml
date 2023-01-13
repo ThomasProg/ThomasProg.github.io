@@ -4,7 +4,7 @@ relativeURLs = true
 
 languageCode = 'en-us'
 title = 'Prog A to Z'
-theme = 'hugo-theme-relearn'
+theme = 'hugo-theme-relearn2'
 
 # For search functionality
 [outputs]
