@@ -397,7 +397,7 @@
         "otherLink" : "https://www.youtube.com/playlist?list=PLVsMLLvBrwU-BBdkCnt3Xab3jgKtpjUFr",
         "otherText" : "Playlist",
 
-        "score" : 0,
+        "score" : -5,
 
         "description": "C++ SDL Tutorials"
     },
