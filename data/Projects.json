@@ -209,6 +209,20 @@
         "description": "A randomly generated labyrinth in Python"
     },
 
+    "LegacyOpenGL" :
+    {
+        "name": "Legacy OpenGL",
+
+        "githubLink" : "https://github.com/ThomasProg/OpenGL-Intro-2019-2020",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/legacyopengl",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "Learning how to use a graphics API"
+    },
+
     "Magnum" :
     {
         "name": "Magnum",
@@ -298,7 +312,7 @@
 
     "NeuralNetwork" :
     {
-        "name": "NeuralNetwork",
+        "name": "Neural Network",
 
         "githubLink" : "https://github.com/ThomasProg/NeuralNetwork",
         "itchLink" : "",
@@ -322,6 +336,20 @@
         "otherText" : "",
 
         "description": "Programming on a Nintendo Switch"
+    },
+
+    "NonEuclideanOpenGL" :
+    {
+        "name": "Non Euclidean OpenGL",
+
+        "githubLink" : "https://github.com/ThomasProg/ModernOpenGL-2019-2020",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/NonEuclideanOpenGL",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "Learning Modern OpenGL by doing non euclidean effects"
     },
 
     "PadoruGame" :
@@ -549,6 +577,20 @@
         "otherText" : "",
 
         "description": "Exploring C++ template technics"
+    },
+
+    "WildDogs" :
+    {
+        "name": "Wild Dogs",
+
+        "githubLink" : "https://github.com/ThomasProg/PFA-FPS-2019-2020",
+        "itchLink" : "",
+        "websiteLink" : "https://thomasprog.github.io/projects/WildDogs",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "My first custom engine, with a game on top of it"
     }
 }
 
