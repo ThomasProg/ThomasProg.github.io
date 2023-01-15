@@ -5,12 +5,14 @@
 
         "githubLink" : "https://github.com/ThomasProg/AnimationProject",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/3d-animations",
+        "websiteLink" : "3d-animations",
 
         "otherLink" : "",
         "otherText" : "",
 
-        "description": "Making 3D bone animations"
+        "score" : -54,
+
+        "description": "Making 3D skeletal animations"
     },
 
     "AI-Movement" :
@@ -19,7 +21,7 @@
 
         "githubLink" : "https://github.com/ThomasProg/AI-Movement",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/ai-movement",
+        "websiteLink" : "ai-movement",
 
         "otherLink" : "",
         "otherText" : "",
@@ -33,10 +35,12 @@
 
         "githubLink" : "https://github.com/ThomasProg/AphroditesRenderingEngine",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/aphroditesrenderingengine",
+        "websiteLink" : "aphroditesrenderingengine",
 
         "otherLink" : "https://www.youtube.com/playlist?list=PLVsMLLvBrwU9qNmyVddJq_wofQzLP5SIg",
         "otherText" : "Playlist",
+
+        "score" : -70,
 
         "description": "Tutorials to make a Rendering Engine with Vulkan"
     },
@@ -47,12 +51,14 @@
 
         "githubLink" : "https://github.com/ThomasProg/BimBall",
         "itchLink" : "https://falkynn.itch.io/bimball",
-        "websiteLink" : "https://thomasprog.github.io/projects/bimball",
+        "websiteLink" : "bimball",
 
         "otherLink" : "",
         "otherText" : "",
 
-        "description": "A brawler game"
+        "score" : -50,
+
+        "description": "Keep control of the ball!"
     },
 
     "ChessMulti" :
@@ -61,7 +67,7 @@
 
         "githubLink" : "https://github.com/ThomasProg/ChessMulti",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/chessmulti",
+        "websiteLink" : "chessmulti",
 
         "otherLink" : "",
         "otherText" : "",
@@ -75,10 +81,12 @@
 
         "githubLink" : "https://github.com/ThomasProg/Distorsion2C",
         "itchLink" : "https://progz.itch.io/Distorsion",
-        "websiteLink" : "https://thomasprog.github.io/projects/distorsion",
+        "websiteLink" : "distorsion",
 
         "otherLink" : "",
         "otherText" : "",
+
+        "score" : -13,
 
         "description": "A puzzle game where you control time"
     },
@@ -89,21 +97,23 @@
 
         "githubLink" : "https://github.com/ThomasProg/WolfChess",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/dragonchess",
+        "websiteLink" : "dragonchess",
 
         "otherLink" : "https://www.youtube.com/playlist?list=PLVsMLLvBrwU8pOB8wJRNgoCA6rvmspoGD",
         "otherText" : "Playlist",
 
+        "score" : 10,
+
         "description": "A live tutorial to make a chess game with Blueprints on Unreal Engine 4"
     },
 
-    "DragonTower" :
+    "DragonsTower" :
     {
         "name": "Dragon Tower",
 
         "githubLink" : "https://github.com/ThomasProg/Dragon-s-Tower",
         "itchLink" : "https://progz.itch.io/dragons-tower",
-        "websiteLink" : "https://thomasprog.github.io/projects/dragontower",
+        "websiteLink" : "dragonstower",
 
         "otherLink" : "",
         "otherText" : "",
@@ -117,12 +127,14 @@
 
         "githubLink" : "https://github.com/ThomasProg/Forest",
         "itchLink" : "https://progz.itch.io/Forest",
-        "websiteLink" : "https://thomasprog.github.io/projects/forest",
+        "websiteLink" : "forest",
 
         "otherLink" : "",
         "otherText" : "",
 
-        "description": "An introduction to Tech Art"
+        "description": "An introduction to Tech Art",
+
+        "score" : -95
     },
 
     "France-IOI" :
@@ -131,7 +143,7 @@
 
         "githubLink" : "https://github.com/ThomasProg/France-IOI",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/france-ioi",
+        "websiteLink" : "france-ioi",
 
         "otherLink" : "https://www.youtube.com/playlist?list=PLVsMLLvBrwU9oDWBUhv_E0xKicgZqlrZm",
         "otherText" : "Playlist",
@@ -145,7 +157,7 @@
 
         "githubLink" : "https://github.com/ThomasProg/GhostySimulator",
         "itchLink" : "https://progz.itch.io/Ghosty",
-        "websiteLink" : "https://thomasprog.github.io/projects/ghosty",
+        "websiteLink" : "ghosty",
 
         "otherLink" : "",
         "otherText" : "",
@@ -159,12 +171,14 @@
 
         "githubLink" : "https://github.com/ThomasProg/GladiatorAI",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/gladiator",
+        "websiteLink" : "gladiator",
 
         "otherLink" : "",
         "otherText" : "",
 
-        "description": "Fight in an arena vs a coordinated AI group"
+        "score" : -28,
+
+        "description": "Fight in an arena against a coordinated AI group"
     },
 
     "GPEngine" :
@@ -173,12 +187,14 @@
 
         "githubLink" : "https://github.com/GP-Engine-team/GP_Engine",
         "itchLink" : "https://progz.itch.io/green-portal",
-        "websiteLink" : "https://thomasprog.github.io/projects/gp-engine",
+        "websiteLink" : "gp-engine",
 
         "otherLink" : "",
         "otherText" : "",
 
-        "description": "A custom Engine made from C++, with a game"
+        "description": "A custom Engine made from C++, with a game",
+
+        "score" : -100 
     },
 
     "JanusTaskSystem" :
@@ -187,10 +203,12 @@
 
         "githubLink" : "https://github.com/ThomasProg/JanusTaskSystem",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/janustasksystem",
+        "websiteLink" : "janustasksystem",
 
         "otherLink" : "",
         "otherText" : "",
+
+        "score" : 5,
 
         "description": "std::function remade"
     },
@@ -201,10 +219,12 @@
 
         "githubLink" : "",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/labyrinthZ",
+        "websiteLink" : "labyrinthz",
 
         "otherLink" : "",
         "otherText" : "",
+
+        "score" : 15,
 
         "description": "A randomly generated labyrinth in Python"
     },
@@ -215,10 +235,12 @@
 
         "githubLink" : "https://github.com/ThomasProg/OpenGL-Intro-2019-2020",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/legacyopengl",
+        "websiteLink" : "legacyopengl",
 
         "otherLink" : "",
         "otherText" : "",
+
+        "score" : -15,
 
         "description": "Learning how to use a graphics API"
     },
@@ -229,10 +251,12 @@
 
         "githubLink" : "https://github.com/ThomasProg/Magnum-2019-2020",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/magnum",
+        "websiteLink" : "magnum",
 
         "otherLink" : "",
         "otherText" : "",
+
+        "score" : 5,
 
         "description": "Using the Magnum engine to make a game"
     },
@@ -243,7 +267,7 @@
 
         "githubLink" : "https://github.com/ThomasProg/MallocAndFree-2019-2020-GP",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/mallocandfree",
+        "websiteLink" : "mallocandfree",
 
         "otherLink" : "",
         "otherText" : "",
@@ -257,10 +281,12 @@
 
         "githubLink" : "https://github.com/ThomasProg/MemorySoup",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/memorysoup",
+        "websiteLink" : "memorysoup",
 
         "otherLink" : "",
         "otherText" : "",
+
+        "score" : -10,
 
         "description": "Library making big memory improvements"
     },
@@ -272,12 +298,14 @@
 
         "githubLink" : "https://github.com/Prog-Z",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/ùinecraftplugins",
+        "websiteLink" : "minecraftplugins",
 
         "otherLink" : "https://www.youtube.com/playlist?list=PLVsMLLvBrwU_8mF2qaTaOdilWX8qcnD5_",
         "otherText" : "Playlist",
 
-        "description": "Java plugins for Minecraft"
+        "score" : 3,
+
+        "description": "Java mods for Minecraft servers"
     },
 
 
@@ -287,10 +315,12 @@
 
         "githubLink" : "https://github.com/ThomasProg/Minestorm-2019-2020",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/minestorm",
+        "websiteLink" : "minestorm",
 
         "otherLink" : "",
         "otherText" : "",
+
+        "score" : -8,
 
         "description": "A game with custom 2D collisions"
     },
@@ -302,7 +332,7 @@
 
         "githubLink" : "https://github.com/ThomasProg/MiniMax",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/minimax",
+        "websiteLink" : "minimax",
 
         "otherLink" : "",
         "otherText" : "",
@@ -316,7 +346,7 @@
 
         "githubLink" : "https://github.com/ThomasProg/NeuralNetwork",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/neuralnetwork",
+        "websiteLink" : "neuralnetwork",
 
         "otherLink" : "",
         "otherText" : "",
@@ -330,12 +360,14 @@
 
         "githubLink" : "https://github.com/ThomasProg/ProtoConsole",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/nintendo-switch-port",
+        "websiteLink" : "nintendo-switch-port",
 
         "otherLink" : "",
         "otherText" : "",
 
-        "description": "Programming on a Nintendo Switch"
+        "description": "Programming on a Nintendo Switch",
+
+        "score" : -1
     },
 
     "NonEuclideanOpenGL" :
@@ -344,10 +376,12 @@
 
         "githubLink" : "https://github.com/ThomasProg/ModernOpenGL-2019-2020",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/NonEuclideanOpenGL",
+        "websiteLink" : "noneuclideanopengl",
 
         "otherLink" : "",
         "otherText" : "",
+
+        "score" : -63,
 
         "description": "Learning Modern OpenGL by doing non euclidean effects"
     },
@@ -358,10 +392,12 @@
 
         "githubLink" : "https://github.com/ThomasProg/PadoruGame",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/padorugame",
+        "websiteLink" : "padorugame",
 
         "otherLink" : "https://www.youtube.com/playlist?list=PLVsMLLvBrwU-BBdkCnt3Xab3jgKtpjUFr",
         "otherText" : "Playlist",
+
+        "score" : 0,
 
         "description": "C++ SDL Tutorials"
     },
@@ -372,10 +408,12 @@
 
         "githubLink" : "",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/physicsengine",
+        "websiteLink" : "physicsengine",
 
         "otherLink" : "https://thomasprog.github.io/Algo-A-to-Z/collisions/index.html",
         "otherText" : "Tutorials",
+
+        "score" : -35,
 
         "description": "2D Collisions for convex objects"
     },
@@ -386,7 +424,7 @@
 
         "githubLink" : "https://github.com/ThomasProg/Projection-Action2.5D-2019-2020",
         "itchLink" : "https://rakan.itch.io/projection",
-        "websiteLink" : "https://thomasprog.github.io/projects/projection",
+        "websiteLink" : "projection",
 
         "otherLink" : "",
         "otherText" : "",
@@ -400,10 +438,12 @@
 
         "githubLink" : "https://github.com/ThomasProg/Rasterizer-2019-2020",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/rasterizer",
+        "websiteLink" : "rasterizer",
 
         "otherLink" : "",
         "otherText" : "",
+
+        "score" : -82,
 
         "description": "Rendering pixels to the screen to make it look 3D"
     },
@@ -412,23 +452,25 @@
     {
         "name": "RTS AI",
 
-        "githubLink" : "",
+        "githubLink" : "https://github.com/ThomasProg/RTS_AI",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/rts-ai",
+        "websiteLink" : "rts-ai",
 
         "otherLink" : "https://jeux.gdria.fr/reunions.html",
-        "otherText" : "conference",
+        "otherText" : "Conference",
 
-        "description": "Development of the AI of a RTS"
+        "score" : -60,
+
+        "description": "Development of the AI of a Real Time Strategy game"
     },
 
-    "Shoot-Cells-Up" :
+    "ShootCellsUp" :
     {
         "name": "Shoot Cells Up",
 
         "githubLink" : "https://github.com/ThomasProg/GranullesDeStress",
         "itchLink" : "https://progz.itch.io/Shoot-Cells-Up",
-        "websiteLink" : "https://thomasprog.github.io/projects/shootcellsup",
+        "websiteLink" : "shootcellsup",
 
         "otherLink" : "",
         "otherText" : "",
@@ -436,13 +478,13 @@
         "description": "Game made in a 2 days Game Jam"
     },
 
-    "SnakeTuto" :
+    "SnakeTutorials" :
     {
         "name": "Snake Tutorials",
 
         "githubLink" : "https://github.com/ThomasProg/SuperSnakeTournament",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/snaketuto",
+        "websiteLink" : "snaketutorials",
 
         "otherLink" : "https://www.youtube.com/playlist?list=PLVsMLLvBrwU_NymJRh7gFHTbtGL4NhjC2",
         "otherText" : "Playlist",
@@ -456,7 +498,7 @@
 
         "githubLink" : "https://github.com/ThomasProg/Algorithms-2019-2020",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/sortalgorithms",
+        "websiteLink" : "sortalgorithms",
 
         "otherLink" : "",
         "otherText" : "",
@@ -471,7 +513,7 @@
 
         "githubLink" : "https://github.com/ThomasProg/SpyCatcher",
         "itchLink" : "https://progz.itch.io/Spy-Catcher",
-        "websiteLink" : "https://thomasprog.github.io/projects/spycatcher",
+        "websiteLink" : "spycatcher",
 
         "otherLink" : "",
         "otherText" : "",
@@ -485,7 +527,7 @@
 
         "githubLink" : "https://github.com/ThomasProg/TinyWings",
         "itchLink" : "https://progz.itch.io/Tiny-Wolf",
-        "websiteLink" : "https://thomasprog.github.io/projects/tinywolf",
+        "websiteLink" : "tinywolf",
 
         "otherLink" : "",
         "otherText" : "",
@@ -499,10 +541,12 @@
 
         "githubLink" : "https://github.com/ThomasProg/LiveTowerDefense",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/towerdefensetutorials",
+        "websiteLink" : "towerdefensetutorials",
 
         "otherLink" : "https://www.youtube.com/playlist?list=PLVsMLLvBrwU8DdE5-7kokdZx1OmDm35BB",
         "otherText" : "Playlist",
+
+        "score" : 10,
 
         "description": "UE4 Blueprints Tutorials during a live"
     },
@@ -510,11 +554,11 @@
 
     "TPS Multi" :
     {
-        "name": "Tower Defense Tutorials",
+        "name": "TPS Multi",
 
         "githubLink" : "https://github.com/ThomasProg/TPSMulti",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/tps-multi",
+        "websiteLink" : "tps-multi",
 
         "otherLink" : "",
         "otherText" : "",
@@ -528,7 +572,7 @@
 
         "githubLink" : "https://github.com/ThomasProg/TwinStickShooter-Multi",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/twinstickshootermulti",
+        "websiteLink" : "twinstickshootermulti",
 
         "otherLink" : "",
         "otherText" : "",
@@ -542,10 +586,12 @@
 
         "githubLink" : "https://github.com/ThomasProg/VectorList-2019-2020",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/vectorandlist",
+        "websiteLink" : "vectorandlist",
 
         "otherLink" : "",
         "otherText" : "",
+
+        "score" : 10,
 
         "description": "Custom implementation of std::list and std::vector"
     },
@@ -557,10 +603,12 @@
 
         "githubLink" : "https://github.com/ThomasProg/VoxelZ",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/voxelz",
+        "websiteLink" : "voxelz",
 
         "otherLink" : "",
         "otherText" : "",
+
+        "score" : -12,
 
         "description": "Procedural Generation on Unreal Engine 4"
     },
@@ -571,7 +619,7 @@
 
         "githubLink" : "https://github.com/ThomasProg/Watermelon-Matrix",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/watermelonmatrix",
+        "websiteLink" : "watermelonmatrix",
 
         "otherLink" : "",
         "otherText" : "",
@@ -585,10 +633,12 @@
 
         "githubLink" : "https://github.com/ThomasProg/PFA-FPS-2019-2020",
         "itchLink" : "",
-        "websiteLink" : "https://thomasprog.github.io/projects/WildDogs",
+        "websiteLink" : "wilddogs",
 
         "otherLink" : "",
         "otherText" : "",
+
+        "score" : -15,
 
         "description": "My first custom engine, with a game on top of it"
     }

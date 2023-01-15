@@ -26,6 +26,22 @@
                     </br> -->
                     {{$project.description}}
                 </div>
+
+                <div style="text-align:left;
+                border-width: 1px;
+                border: 1px solid #333333;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                font-size: 13px;
+                overflow: hidden;
+                background: #000000;">
+                <a style="height:100%;width:100%;" href="/projects/{{ $project.websiteLink }}/">
+                <!-- <img height=80% width=80% src="/PFA.png"> -->
+                <img style="margin:auto" src = "{{ $project.websiteLink }}/showcasePic.png" onerror="this.parentNode.parentNode.style.visibility = 'hidden'">
+                </a>
+                </div>
+
                 <div style="
                 flex: 0;
                 display: flex;
@@ -36,10 +52,13 @@
                     <a href="{{ $project.itchLink }}" class="button", style="line-height: 33px;min-width: 100px;">Play</a>
                     {{- end }}
                     {{- if $project.githubLink }}
-                    <a href="{{ $project.githubLink }}" class="button", style="line-height: 33px;min-width: 100px;">See code</a>
+                    <a href="{{ $project.githubLink }}" class="button", style="line-height: 33px;min-width: 100px;">Code</a>
+                    {{- end }}
+                    {{- if $project.otherLink }}
+                    <a href="{{ $project.otherLink }}" class="button", style="line-height: 33px;min-width: 100px;">{{$project.otherText}}</a>
                     {{- end }}
                     {{- if $project.websiteLink }}
-                    <a href="{{ $project.websiteLink }}/index.html" class="button", style="line-height: 33px;min-width: 100px;">See more</a>
+                    <a href="/projects/{{ $project.websiteLink }}/index.html" class="button", style="line-height: 33px;min-width: 100px;">More</a>
                     {{- end }}
                 </div>
             </div>
@@ -48,3 +67,4 @@
     </div>
 
 </div>
+

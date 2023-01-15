@@ -2,7 +2,7 @@
 
     <!-- {{ $.Page.Site.BaseURL }} -->
 
-{{ range $.Site.Data.Projects }}
+{{ range sort $.Site.Data.Projects ".score" }}
     <div style="width:100%">
    {{ partial "showcaseProject.html" (dict "project" .) }}
     </div>
