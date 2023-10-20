@@ -197,6 +197,22 @@
         "score" : -100 
     },
 
+    "Sikaria" :
+    {
+        "name": "Sikaria",
+
+        "githubLink" : "",
+        "itchLink" : "https://isart-digital.itch.io/sikaria",
+        "websiteLink" : "",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "A multiplayer stealth game",
+
+        "score" : -120
+    },
+
     "JanusTaskSystem" :
     {
         "name": "Janus Task System",
