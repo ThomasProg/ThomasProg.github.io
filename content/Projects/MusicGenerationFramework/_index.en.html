@@ -1,0 +1,83 @@
++++
+title = "MusicGenerationFramework"
+date = 2023-12-10T17:25:53+01:00
+weight = 1
+chapter = true
+pre = "<b>> </b>"
++++
+
+<h1 style="text-align: center;color:#F4A261">MusicGenerationFramework</h1>
+<h2 style="text-align: center;color:#fffcf2" title="A Framework to generate music for video games">A Framework to generate music for video games</h2>
+
+</br>
+<!--
+<iframe style="width:70%; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/N_i8xZ1Uiaw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</br>
+-->
+{{< projectButtons github="MusicGenerationFramework">}} 
+
+<div style="display: grid; gap:20px; grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));margin-right: 15px;"> 
+
+<div>
+    
+{{% projectDescription %}} 
+{{% projectDescriptionBox name="Description" %}}
+
+Still in progress. </br>
+In November 2023, I started my research at the TUT (Tokyo University of Technology) as a research student.</br>
+The theme of my research is currently Music Generation through Diffusion. </br>
+The framework is divided mainly in:
+- A runtime part, in C++, to preprocess and postprocess data
+- A training part, in Python, to train deep learning models
+
+</br>
+
+The goal is then to load that model in Unreal Engine, use it to generate MIDI events, and mix them using MetaSounds.
+
+{{% /projectDescriptionBox %}}
+
+{{% projectDescriptionBox name="Tools" %}}
+
+Programming:
+- C
+- C++
+- Python
+- Pytorch
+- Unreal Engine
+- Visual Studio Code
+
+{{% /projectDescriptionBox %}}
+
+{{% /projectDescription %}}
+
+{{% projectDescription %}}
+
+{{% projectDescriptionBox name="My Work" %}}
+
+Programming:
+- Creation of a MIDI Parser
+- Specifying, making, and testing different Deep Learning Diffusion Architectures 
+- Development of a Plugin for Unreal Engine to play MIDI in MetaSounds
+
+{{% /projectDescriptionBox %}}
+ 
+{{% /projectDescription %}}
+
+</div>
+
+</div>
+
+
+<div id="disqus_thread"></div>
+<script>
+  (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://abc.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{{< comments >}}
