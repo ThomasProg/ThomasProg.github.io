@@ -434,7 +434,7 @@
 
     "EscapeDarkness" :
     {
-        "name": "Padoru Game",
+        "name": "Escape Darkness",
 
         "githubLink" : "https://github.com/ThomasProg/EscapeDarkness",
         "itchLink" : "https://progz.itch.io/Escape-Darkness",
@@ -777,7 +777,7 @@
 
         "githubLink" : "https://github.com/ThomasProg/DiscordForGodot",
         "itchLink" : "",
-        "websiteLink" : "",
+        "websiteLink" : "discordwrapperforgodot",
 
         "otherLink" : "",
         "otherText" : "",
@@ -793,7 +793,7 @@
 
         "githubLink" : "https://github.com/ThomasProg/DiscordForGodot",
         "itchLink" : "",
-        "websiteLink" : "",
+        "websiteLink" : "discordboardgame",
 
         "otherLink" : "",
         "otherText" : "",
@@ -809,7 +809,7 @@
 
         "githubLink" : "https://github.com/ThomasProg/MusicGenerationFramework",
         "itchLink" : "",
-        "websiteLink" : "",
+        "websiteLink" : "MusicGenerationFramework",
 
         "otherLink" : "",
         "otherText" : "",
@@ -842,7 +842,7 @@
 
         "githubLink" : "",
         "itchLink" : "",
-        "websiteLink" : "",
+        "websiteLink" : "hawkswell",
 
         "otherLink" : "https://www.hawkswellstudios.com/",
         "otherText" : "Website",
