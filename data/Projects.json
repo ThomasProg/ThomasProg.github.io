@@ -102,7 +102,7 @@
         "otherLink" : "https://www.youtube.com/playlist?list=PLVsMLLvBrwU8pOB8wJRNgoCA6rvmspoGD",
         "otherText" : "Playlist",
 
-        "score" : 10,
+        "score" : -30,
 
         "description": "A live tutorial to make a chess game with Blueprints on Unreal Engine 4"
     },
@@ -119,6 +119,20 @@
         "otherText" : "",
 
         "description": "A simple platformer game made on Unreal Engine 4"
+    },
+
+    "DragonsPeak" :
+    {
+        "name": "Dragon's Peak",
+
+        "githubLink" : "https://github.com/ThomasProg/DragonEndlessGreed",
+        "itchLink" : "https://progz.itch.io/dragonspeak",
+        "websiteLink" : "dragonspeak",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "description": "Reigns, but as a Dragon"
     },
 
     "Forest" :
@@ -418,6 +432,88 @@
         "description": "C++ SDL Tutorials"
     },
 
+    "EscapeDarkness" :
+    {
+        "name": "Padoru Game",
+
+        "githubLink" : "https://github.com/ThomasProg/EscapeDarkness",
+        "itchLink" : "https://progz.itch.io/Escape-Darkness",
+        "websiteLink" : "escapedarkness",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "score" : -40,
+
+        "description": "My first Godot game"
+    },
+
+    "TheSearchForTheDoor" :
+    {
+        "name": "The Search For The Door",
+
+        "githubLink" : "https://github.com/ThomasProg/BrackeysGameJam2024",
+        "itchLink" : "https://progz.itch.io/thesearchforthedoor",
+        "websiteLink" : "thesearchforhedoor",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "score" : -5,
+
+        "description": "A top down RPG on Godot"
+    },
+
+    "ShapeJourney" :
+    {
+        "name": "Shape Journey",
+
+        "githubLink" : "https://github.com/ThomasProg/AcerolaJam0",
+        "itchLink" : "https://progz.itch.io/shapejourney",
+        "websiteLink" : "shapejourney",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "score" : -72,
+
+        "description": "2D metroidvania / platformer"
+    },
+
+    "GhostsSummoningWar" :
+    {
+        "name": "Ghost's Summoning War",
+
+        "githubLink" : "https://github.com/ThomasProg/LudumDare55",
+        "itchLink" : "https://progz.itch.io/ghosts-summoning-war",
+        "websiteLink" : "ghostssummoningwar",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "score" : -20,
+
+        "description": "Pacman + TowerDefense"
+    },
+
+    
+    "TruckKun" :
+    {
+        "name": "異世界で乙女ゲームのトラックくんをするのはちょっと笑う",
+
+        "githubLink" : "https://github.com/ThomasProg/TruckKun",
+        "itchLink" : "https://kukuhbr.itch.io/truckmeki",
+        "websiteLink" : "truckkun",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "score" : 0,
+
+        "description": "An otome game with Truck Kun"
+    },
+
+
     "PhysicsEngine" :
     {
         "name": "Physics Engine",
@@ -432,6 +528,22 @@
         "score" : -35,
 
         "description": "2D Collisions for convex objects"
+    },
+
+    "RubiksCube" :
+    {
+        "name": "Rubik's Cube",
+
+        "githubLink" : "https://github.com/ThomasProg/RubiksCube",
+        "itchLink" : "",
+        "websiteLink" : "rubikscube",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "score" : -5,
+
+        "description": "Rubik's cube on Unity using Quaternions"
     },
 
     "Projection" :
@@ -657,6 +769,105 @@
         "score" : -15,
 
         "description": "My first custom engine, with a game on top of it"
+    },
+
+    "discordwrapperforgodot" :
+    {
+        "name": "Discord Wrapper For Godot",
+
+        "githubLink" : "https://github.com/ThomasProg/DiscordForGodot",
+        "itchLink" : "",
+        "websiteLink" : "",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "score" : -71,
+
+        "description": "A plugin to make discord bots easily on Godot"
+    },
+
+    "discordboardgame" :
+    {
+        "name": "Discord Board Game",
+
+        "githubLink" : "https://github.com/ThomasProg/DiscordForGodot",
+        "itchLink" : "",
+        "websiteLink" : "",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "score" : -42,
+
+        "description": "A board game made using a Discord Bot"
+    },
+
+    "MusicGenerationFramework" :
+    {
+        "name": "Music Generation Framework",
+
+        "githubLink" : "https://github.com/ThomasProg/MusicGenerationFramework",
+        "itchLink" : "",
+        "websiteLink" : "",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "score" : -73,
+
+        "description": "A framework to generate music in videogames"
+    },
+
+
+    "Hyperseries" :
+    {
+        "name": "Hyperseries",
+
+        "githubLink" : "",
+        "itchLink" : "",
+        "websiteLink" : "Hyperseries",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "score" : -60,
+
+        "description": "A gamified streaming platform"
+    },
+
+    "Hawkswell" :
+    {
+        "name": "Hawkswell",
+
+        "githubLink" : "",
+        "itchLink" : "",
+        "websiteLink" : "",
+
+        "otherLink" : "https://www.hawkswellstudios.com/",
+        "otherText" : "Website",
+
+        "score" : -76,
+
+        "description": "Engine & Tools Programmer"
+    },
+
+
+    "IsartSandboxAssistant" :
+    {
+        "name": "Sandbox Assistant",
+
+        "githubLink" : "",
+        "itchLink" : "",
+        "websiteLink" : "isartsandboxassistant",
+
+        "otherLink" : "",
+        "otherText" : "",
+
+        "score" : -60,
+
+        "description": "Teaching and evaluating students"
     }
+
 }
 
